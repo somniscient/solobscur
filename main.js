@@ -1,6 +1,4 @@
 gsap.register.Plugin(ScrollTrigger);
-import ScrollTrigger, { Trigger } from '../src/ScrollTrigger'
-import Canvas from './canvas'
 
 ((document, window) => {
     // This is where the magic happens, start by initializing a ScrollTrigger
