@@ -1,4 +1,4 @@
-gsap.register.Plugin(ScrollTrigger;
+gsap.register.Plugin(ScrollTrigger);
 import ScrollTrigger, { Trigger } from '../src/ScrollTrigger'
 import Canvas from './canvas'
 
