@@ -38,10 +38,10 @@ a {
 }
 
 section {
-    display: table;
+    display: flex;
     position: relative;
     box-sizing: border-box;
-    width: 50%;
+    width: 95%;
     min-height: 100vh;
     padding: 75px 15px;
 }
