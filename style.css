@@ -43,7 +43,6 @@ section {
     box-sizing: border-box;
     width: 95%;
     min-height: 100vh;
-    padding: 75px 15px;
 }
 
 Somna {
@@ -65,7 +64,6 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
-
     z-index: 0;
 }
 
