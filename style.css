@@ -131,7 +131,7 @@ section.Examples {
 
 .CenterAlign {
     text-align: center;
-	display: table;
+	display: flex;
 }
 
 div.Wrapper {
