@@ -5,3 +5,4 @@ function draw() {
   ctx.font = "48px";
   ctx.fillText("SK", 10, 50);
 }
+draw();
