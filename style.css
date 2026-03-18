@@ -47,10 +47,12 @@ section {
 }
 
 somna {
-
+	width:50%;
+	position:fixed;
 }
 
 suffix {
+	width:50%;
 }
 
 section div.Wrapper {
