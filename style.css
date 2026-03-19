@@ -52,7 +52,7 @@ Somna {
 	position:fixed;
 }
 
-Scrollbox {
+.scrollbox {
 	width:50%;
 	height:100px;
 }
