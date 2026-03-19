@@ -1,6 +1,3 @@
-gsap.register.Plugin(ScrollTrigger);
-import ScrollTrigger, { Trigger } from '../src/ScrollTrigger'
-
 ((document, window) => {
 
 function draw() {
