@@ -48,10 +48,13 @@ section {
 
 Somna {
 	width:50%;
+	height:100px;
+	position:fixed;
 }
 
-Suffix {
+Scrollbox {
 	width:50%;
+	height:100px;
 }
 
 section div.Wrapper {
