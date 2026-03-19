@@ -4,7 +4,8 @@ import ScrollTrigger, { Trigger } from '../src/ScrollTrigger'
 ((document, window) => {
 
 function draw() {
-  const ctx = document.getElementById("canvas").getContext("2d");
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
   ctx.font = "48px";
   ctx.fillText("SK", 10, 50);
 }
