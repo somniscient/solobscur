@@ -1,4 +1,7 @@
 gsap.register.Plugin(ScrollTrigger);
+import ScrollTrigger, { Trigger } from '../src/ScrollTrigger'
+
+((document, window) => {
 
 function draw() {
   const ctx = document.getElementById("canvas").getContext("2d");
@@ -6,3 +9,5 @@ function draw() {
   ctx.fillText("SK", 10, 50);
 }
 draw();
+
+ })(document, window)
