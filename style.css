@@ -137,7 +137,7 @@ section.Examples {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-
+overflow-y: scroll;
 }
 
 div.Wrapper {
