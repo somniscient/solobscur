@@ -135,6 +135,9 @@ section.Examples {
 .CenterAlign {
     text-align: center;
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
 }
 
 div.Wrapper {
