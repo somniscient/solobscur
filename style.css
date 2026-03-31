@@ -37,12 +37,17 @@ a {
 }
 
 div.panel {
-text-align: left;
+	text-align: left;
+	flow-growth: 1;
+	width: 100%;
+	min-height: 100px;
 }
 
 .scrollbox {
-	width:50%;
+	width:100%;
 	height:100px;
+	overflow: hidden;
+	flow-growth: 1;
 }
 
 section {
@@ -55,14 +60,10 @@ section {
 }
 
 Somna {
-	width:50%;
+	width:100%;
 	height:100px;
 	text-align: right;
-}
-
-section div.Wrapper {
-    display: table-cell;
-    vertical-align: middle;
+	flow-growth: 1;
 }
 
 canvas {
@@ -83,7 +84,6 @@ section code {
     max-width: 680px;
     margin: 0 auto;
     padding: 0 0 25px 0;
-
     line-height: 1.4em;
     color: inherit;
 }
@@ -97,9 +97,7 @@ section p span {
     position: relative;
     top: -2px;
     padding: 0 5px;
-
     background: #689396;
-
     font-family: monospace;
     font-size: 14px;
     color: #fff;
@@ -107,7 +105,6 @@ section p span {
 
 section code {
     padding: 15px;
-
     background: #689396;
     color: #fff;
     font-size: 14px;
