@@ -13,7 +13,7 @@ function snapDivs() {
      // If you need the relative div to align with a specific edge
         // You can get the fixed div's distance from the left/right/top/bottom
         const fixedTop = fixedDiv.getBoundingClientRect().top;
-        const fixedLeft = fixedDiv.getBoundingClientRect().right;
+        const fixedLeft = fixedDiv.getBoundingClientRect().left;
 
         // ... and set the relative-div's position property dynamically
     }
