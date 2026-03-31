@@ -60,11 +60,15 @@ div.panel {
 
 section {
     display: flex;
-    position: relative;
+    position: fixed;
     box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
 	align-items:center;
+	text-align: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow-y: scroll;
 }
 
 canvas {
@@ -79,16 +83,6 @@ canvas {
 
 section h3,
 section p,
-section code {
-    display: block;
-    width: 98%;
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 0 0 25px 0;
-    line-height: 1.4em;
-    color: inherit;
-}
-
 section h3 {
     margin: 45px auto 0 auto;
 }
@@ -104,51 +98,10 @@ section p span {
     color: #fff;
 }
 
-section code {
-    padding: 15px;
-    background: #689396;
-    color: #fff;
-    font-size: 14px;
-}
-
-section code span {
-    opacity: 0.6;
-}
-
-section.Intro {
-    color: #a0bbbd;
-}
-
-section.Intro h2 {
-    color: rgba(160, 187, 189, 0.8);
-}
-
-section.About {
-    color: #497275;
-    background: #a0bbbd;
-}
 
 section.Examples {
     background: #fff;
     color: #689396;
-}
-
-section.CenterAlign {
-    text-align: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	overflow-y: scroll;
-	position:fixed;
-}
-
-div.Wrapper {
-    position: relative;
-    width: 96%;
-    max-width: 680px;
-    margin: 0 auto;
-    z-index: 1;
-				text-align: left;
 }
 
 div.MouseScroll {
