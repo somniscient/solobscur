@@ -50,6 +50,7 @@ Somna {
 	width:50%;
 	height:100px;
 	position:fixed;
+	text-align: right;
 }
 
 .scrollbox {
@@ -146,6 +147,7 @@ div.Wrapper {
     max-width: 680px;
     margin: 0 auto;
     z-index: 1;
+				text-align: left;
 }
 
 div.MouseScroll {
