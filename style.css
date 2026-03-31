@@ -38,8 +38,8 @@ a {
 
 div.fixed {
 	position: fixed;
-	top: 50%;
-	left: 10%;
+	top: 400px;
+	left: 400px;
 	height: auto;
 	width: auto;
 	text-align: right;
@@ -48,7 +48,8 @@ div.fixed {
 
 div.sticky-wrapper {
 	position: relative;
-	padding-top: 50%;
+	padding-top: 400px;
+	padding-left: 400px;
 }
 
 div.sticky {
