@@ -36,22 +36,23 @@ a {
     color: #689396;
 }
 
-Somna {
+div.fixed {
+	top: 50%;
+	left: 10%;
 	height:100px;
 	width:50%;
 	text-align: right;
 	font-size: 50px;
 }
 
-.scrollbox {
+div.sticky {
 	height:100px;
 	width:50%;
 	text-align: left;
-	overflow-y: hidden;
 	font-size: 50px;
 }
 
-div.panel {
+div.slide {
 	text-align: left;
 	width: 100%;
 }
