@@ -46,10 +46,10 @@ Somna {
 .scrollbox {
 	width:50%;
 	height:100px;
-	overflow-y: scroll;
 	flex-growth: 1;
 	align: left;
 	text-align: left;
+	overflow-y: scroll;
 }
 
 div.panel {
@@ -64,11 +64,10 @@ section {
     box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
-	align-items:center;
+	align-items: center;
 	text-align: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	overflow-y: scroll;
 }
 
 canvas {
