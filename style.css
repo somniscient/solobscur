@@ -37,14 +37,12 @@ a {
 }
 
 Somna {
-	width:50%;
 	height:100px;
 	text-align: right;
 	flex-growth: 1;
 }
 
 .scrollbox {
-	width:50%;
 	height:100px;
 	flex-growth: 1;
 	align: left;
