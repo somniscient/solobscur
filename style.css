@@ -40,7 +40,7 @@ Somna {
 	height:100px;
 	width:50%;
 	text-align: right;
-	font-size: 2.5em;
+	font-size: 50px;
 }
 
 .scrollbox {
@@ -48,7 +48,7 @@ Somna {
 	width:50%;
 	text-align: left;
 	overflow-y: hidden;
-	font-size: 2.5em;
+	font-size: 50px;
 }
 
 div.panel {
