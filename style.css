@@ -69,35 +69,12 @@ section {
 
 canvas {
     position: fixed;
-    top: 60%;
-    left: 10%;
+    top: 55%;
+    left: 5%;
     width: 200px;
     height: 200px;
     z-index: 2;
 	border: 1px;
-}
-
-section h3,
-section p,
-section h3 {
-    margin: 45px auto 0 auto;
-}
-
-section p span {
-    display: inline-block;
-    position: relative;
-    top: -2px;
-    padding: 0 5px;
-    background: #689396;
-    font-family: monospace;
-    font-size: 14px;
-    color: #fff;
-}
-
-
-section.Examples {
-    background: #fff;
-    color: #689396;
 }
 
 div.MouseScroll {
