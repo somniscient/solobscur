@@ -37,6 +37,7 @@ a {
 }
 
 div.fixed {
+	position: fixed;
 	top: 50%;
 	left: 10%;
 	height:100px;
@@ -45,7 +46,13 @@ div.fixed {
 	font-size: 50px;
 }
 
+div.sticky-wrapper {
+	position: relative;
+	padding-top: 50%;
+}
+
 div.sticky {
+	position:relative;
 	height:100px;
 	width:50%;
 	text-align: left;
