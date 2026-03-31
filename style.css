@@ -40,13 +40,11 @@ Somna {
 	height:100px;
 	width:50%;
 	text-align: right;
-	flex-growth: 1;
 }
 
 .scrollbox {
 	height:100px;
 	width:50%;
-	flex-growth: 1;
 	text-align: left;
 	overflow-y: hidden;
 }
@@ -70,8 +68,8 @@ section {
 
 canvas {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 60%;
+    left: 10%;
     width: 200px;
     height: 200px;
     z-index: 2;
