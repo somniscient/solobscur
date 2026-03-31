@@ -133,12 +133,13 @@ section.Examples {
     color: #689396;
 }
 
-.CenterAlign {
+section.CenterAlign {
     text-align: center;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 overflow-y: scroll;
+position:fixed;
 }
 
 div.Wrapper {
