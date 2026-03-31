@@ -79,8 +79,8 @@ section {
 
 canvas {
     position: fixed;
-    top: 50%;
-    left: 20%;
+    top: 200px;
+    left: 300px;
     width: 200px;
     height: 200px;
     z-index: 2;
