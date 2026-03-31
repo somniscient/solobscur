@@ -38,7 +38,6 @@ a {
 
 div.panel {
 	text-align: left;
-	flow-growth: 1;
 	width: 100%;
 	min-height: 100px;
 }
@@ -47,7 +46,7 @@ div.panel {
 	width:100%;
 	height:100px;
 	overflow: hidden;
-	flow-growth: 1;
+	flex-growth: 1;
 }
 
 section {
@@ -63,7 +62,7 @@ Somna {
 	width:100%;
 	height:100px;
 	text-align: right;
-	flow-growth: 1;
+	flex-growth: 1;
 }
 
 canvas {
