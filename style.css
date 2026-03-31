@@ -47,7 +47,7 @@ Somna {
 	flex-growth: 1;
 	align: left;
 	text-align: left;
-	overflow-y: scroll;
+	overflow-y: hidden;
 }
 
 div.panel {
