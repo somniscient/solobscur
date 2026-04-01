@@ -37,14 +37,14 @@ a {
 }
 
 div.sticky-wrapper {
+	top:50%;
+	left:0;
 	display: flex wrap;
 	width: 100%;
 }
 
 div.fixed {
 	position: fixed;
-	top: 50%;
-	left: 400px;
 	height: auto;
 	width: auto;
 	text-align: right;
