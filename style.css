@@ -38,9 +38,7 @@ a {
 
 div.sticky-wrapper {
 	display: flex;
-	position: relative;
-	padding-top: 50%;
-	padding-left: 400px;
+	width: 100%;
 }
 
 div.fixed {
