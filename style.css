@@ -47,8 +47,6 @@ div.sticky-wrapper {
 
 div.fixed {
 	position: relative;
-	top: 10vh;
-	left: 40vw;
 	height: 60px;
 	width: auto;
 	text-align: right;
@@ -58,7 +56,6 @@ div.fixed {
 
 div.sticky {
 	position:relative;
-	padding-left: 10px;
 	height: 60px;
 	text-align: left;
 	font-size: 50px;
