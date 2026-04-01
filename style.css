@@ -37,8 +37,8 @@ a {
 }
 
 div.sticky-wrapper {
-	top: 10vh;
-	left: 40vw;
+	top: 50%;
+	left: 50%;
 	width:500px;
 	min-height: 400px;
 	display: flex;
