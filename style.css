@@ -53,6 +53,7 @@ div.fixed {
 
 div.sticky {
 	position:relative;
+	flex-grow:1;
 	padding-left: 400px;
 	height:100px;
 	text-align: left;
