@@ -36,7 +36,7 @@ a {
     color: #689396;
 }
 
-div.sticky-wrapper {
+.sticky-wrapper {
 	top: 50%;
 	left: 50%;
 	width:500px;
@@ -45,7 +45,7 @@ div.sticky-wrapper {
 	background-color: #333;
 }
 
-div.fixed {
+.fixed {
 	position: relative;
 	height: 60px;
 	width: 100px;
@@ -54,7 +54,7 @@ div.fixed {
 	background-color: #999;
 }
 
-div.sticky {
+.sticky {
 	position:relative;
 	height: 60px;
 	width: 100px;
@@ -63,7 +63,7 @@ div.sticky {
 	background-color: #DDD;
 }
 
-div.slide {
+.slide {
 	text-align: left;
 	width: 100%;
 	position: relative;
