@@ -39,6 +39,8 @@ a {
 div.sticky-wrapper {
 	top: 10vh;
 	left: 40vw;
+	width:500px;
+	min-height: 400px;
 	display: flex;
 	width: 100%;
 	background-color: #333;
