@@ -39,7 +39,7 @@ a {
 div.sticky-wrapper {
 	top:50%;
 	left:0;
-	display: flex wrap;
+	display: flex;
 	width: 100%;
 }
 
